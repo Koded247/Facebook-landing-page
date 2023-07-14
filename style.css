@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    /* margin: 8em auto; */
+    /* background-color: blueviolet; */
+}
+img {
+    margin: 0;
+    max-width: 300px;
+    
+}
+.welcome-note-text{
+    font-size: 1.7rem;
+    padding: 0 0 0 1.6rem;
+}
+.first-block {
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+    background-color: rgb(236, 239, 241);
+}
+input,
+.log-button{
+    /* padding: 1rem; */
+    font-size: 1.1rem;
+    min-width: 350px;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(221, 218, 218);
+
+    
+}
+.input-login{
+    padding: 0.rem;
+    /* box-shadow: 0.1px 1px 5px 0.5px; */
+    border-radius: 0.5rem;
+    text-align: center;
+    background-color: white;
+    /* border: 2px solid rgb(236, 234, 234); */
+    box-shadow: 1px 1px 5px 0.5px;
+}
+.log-button{
+    background-color: rgb(9, 127, 237);
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+a:any-link{
+    text-decoration-line: none;
+    margin-bottom: 1rem;
+    color: rgb(7, 106, 199) ;
+    
+    
+}
+hr {
+    margin: 1.2rem;
+    min-width: 350px;
+}
+.create-button{
+    min-width: 200px;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none ;
+    background-color: rgb(41, 170, 8);
+    margin-bottom: 1.2rem;
+
+}
+strong{
+    color: black;
+}
+.create-page-text{
+    margin-top: 1.2rem;
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+article{
+    padding: 2rem;
+    margin: 0 20em 2em 20em;
+    color: rgb(181, 180, 180);
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width:900px) {
+   .first-block{
+    display: flex;
+    flex-direction:column;
+   } 
+  
+}
